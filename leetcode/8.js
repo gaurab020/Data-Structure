@@ -11,7 +11,7 @@ class Node {
 
  function maxDepth(node){
      if(node == null)
-     return -1;
+     return 0;
      else {
          let lDepth = maxDepth(node.left);
          let rDepth = maxDepth(node.right);
