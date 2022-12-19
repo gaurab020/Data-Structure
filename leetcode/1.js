@@ -9,7 +9,7 @@ for (var i = 0; i < exp.length; i++) {
     expCounts[key] = 0;
   }
   expCounts[key]++;
-  if (maxKey == "" || expCounts[key] < expCounts[maxKey]) {
+  if (maxKey == "" || expCounts[key] > expCounts[maxKey]) {
     maxKey = key;
   }
 }
